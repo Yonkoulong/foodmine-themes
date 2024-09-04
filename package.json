@@ -1,0 +1,27 @@
+{
+  "name": "@yonkoulong/foodmine-themes",
+  "version": "1.0.0",
+  "description": "A Shared theme library with CSS, SCSS, assetss",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Yonkoulong/foodmine-themes.git"
+  },
+  "keywords": [
+    "theme",
+    "css",
+    "scss"
+  ],
+  "author": "longnh",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/Yonkoulong/foodmine-themes/issues"
+  },
+  "homepage": "https://github.com/Yonkoulong/foodmine-themes#readme",
+  "publishConfig": {
+    "registry": "https://npm.pkg.github.com/"
+  }
+}

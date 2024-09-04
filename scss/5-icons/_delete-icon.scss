@@ -1,0 +1,11 @@
+.fm-delete-primary {
+    background-image: url('../../assets/icons/delete.svg');
+    display: inline-block;
+    background-size: contain;
+    background-repeat: no-repeat;
+  
+    &::before {
+      content: '';
+    }
+  }
+  
