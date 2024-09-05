@@ -1,6 +1,6 @@
 {
   "name": "@yonkoulong/foodmine-themes",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "A Shared theme library with CSS, SCSS, assetss",
   "main": "index.js",
   "scripts": {
