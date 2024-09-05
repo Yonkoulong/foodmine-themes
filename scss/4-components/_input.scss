@@ -1,0 +1,54 @@
+@import '1-variables';
+
+.cimb-input {
+  padding-left: 0px;
+  border-radius: 0px !important;
+  border: none;
+  border-bottom: 2px solid rgba(213, 213, 213, 1);
+
+  &.ng-invalid.ng-touched {
+    border-color: $color-danger;
+    box-shadow: 0 0 0 0.2rem rgba(209, 37, 6, 0.25);
+
+    &:focus {
+      border-color: $color-danger;
+      box-shadow: 0 0 0 0.2rem rgba(209, 37, 6, 0.25);
+    }
+  }
+}
+
+.cimb-input-pd {
+  padding: 12px 0;
+  width: 100%;
+}
+
+.cimb-input:focus {
+  border-color: $color-success;
+  box-shadow: 0 0 0 0.2rem rgba(40, 167, 69, 0.25);
+}
+
+.cimb-input-invalid,
+.cimb-input-invalid:focus {
+  border-color: $color-danger;
+  box-shadow: 0 0 0 0.2rem rgba(209, 37, 6, 0.25);
+}
+
+.cimb-invalid-text {
+  color: $color-danger;
+  font-size: 14px;
+}
+
+input {
+  outline: none;
+  box-shadow: none !important;
+
+  &::placeholder {
+    color: #1a203d4d;
+  }
+}
+
+input[type='number']::-webkit-inner-spin-button,
+input[type='number']::-webkit-outer-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
