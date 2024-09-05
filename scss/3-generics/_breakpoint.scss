@@ -1,0 +1,79 @@
+// default breakpoints
+$xs: '0';
+$sm: '576px';
+$md: '768px';
+$lg: '992px';
+$xl: '1200px';
+$xxl: '1400px';
+
+@mixin min-xs() {
+  @media (min-width: $xs) {
+    @content;
+  }
+}
+
+@mixin min-sm() {
+  @media (min-width: $sm) {
+    @content;
+  }
+}
+
+@mixin min-md() {
+  @media (min-width: $md) {
+    @content;
+  }
+}
+
+@mixin min-lg() {
+  @media (min-width: $lg) {
+    @content;
+  }
+}
+
+@mixin min-xl() {
+  @media (min-width: $xl) {
+    @content;
+  }
+}
+
+@mixin min-xxl() {
+  @media (min-width: $xxl) {
+    @content;
+  }
+}
+
+@mixin max-xs() {
+  @media (max-width: $xs) {
+    @content;
+  }
+}
+
+@mixin max-sm() {
+  @media (max-width: $sm) {
+    @content;
+  }
+}
+
+@mixin max-md() {
+  @media (max-width: $md) {
+    @content;
+  }
+}
+
+@mixin max-lg() {
+  @media (max-width: $lg) {
+    @content;
+  }
+}
+
+@mixin max-xl() {
+  @media (max-width: $xl) {
+    @content;
+  }
+}
+
+@mixin max-xxl() {
+  @media (max-width: $xxl) {
+    @content;
+  }
+}
